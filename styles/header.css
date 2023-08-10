@@ -17,6 +17,26 @@
     align-items: center;
 }
 
-.containen_imagem{
+.container_imagem{
     padding: 1em;
 }
+
+
+
+.lista-menu {
+    display: none;
+    position: absolute;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+
+
+.lista-menu-titulo, 
+.lista-menu-item {
+    padding: 1em;
+    background-color: white;
+}
+   
